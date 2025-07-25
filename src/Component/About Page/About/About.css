@@ -1,0 +1,130 @@
+
+.About-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 5% auto;
+    position: relative;
+}
+.About-banner{
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 2%;
+}
+.About-banner-image{
+    width: 100%;
+    height: 50vh;
+
+
+}
+.About-content{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.About-content h1{
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2%;
+    align-items: center;
+    justify-content: center;
+}
+.About-images{
+width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12%;
+    margin: 2%;
+}
+.About-images img{
+    width: 90%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.About-images  .pregnant-image{
+    width: 83%;
+    height: 50%;
+    margin-left: 10%;
+}
+.about-title{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 768px) {
+
+    .About-content{
+    line-height: 1.2;
+    display: flex;
+    gap: 1px;
+}
+    .About-content,
+    .About-images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .About-images > div {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .about-title {
+        font-size: 2rem;
+    }
+
+    .About-content h1 {
+        font-size: 1.4rem;
+        text-align: start;
+    }
+
+    .About-content p {
+        text-align: start;
+        padding: 0 1px;
+    }
+    .About-images  .pregnant-image{
+        display: none;
+}
+
+}
+@media (max-width: 920px){
+    .About-content{
+    line-height: 1.5;
+    display: flex;
+    gap: 2px;
+}
+}
+@media (max-width: 1120px){
+    .About-content{
+    line-height: 1.5;
+    display: flex;
+    gap: 10%;
+}
+}
+@media (max-width: 480px){
+        .About-content{
+    line-height: 1;
+    display: flex;
+    gap: 1%;
+}
+}
+

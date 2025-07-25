@@ -1,0 +1,191 @@
+.Contact-container{
+    width: 100%;
+    background-image: url('../../assets/Images/Portofolio/Contact.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: 2%;
+
+}
+.Contact-Header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    gap: 10%;
+}
+.Contact-Header-Title{
+    width: 60%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2%;
+
+}
+.Contact-Header-Form{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 100%;
+}
+.Contact-Form-Name{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.Contact-Input-First, .Contact-Input-Second{
+    width: 30%;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 2%;
+
+}
+.Contact-Input-Email, .Contact-Input-Phone{
+    width: 62%;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 2%; 
+    margin-bottom: 2%;
+}
+.Contact-Input-Message{
+    width: 62%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.Contact-Button{
+    width: 15%;
+    height: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+    right: 17%;
+}
+.Contact-Button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+    transition: 0.3s;
+}
+@media (max-width: 1024px) {
+    .Contact-Header {
+        flex-direction: row;
+        gap: 40px;
+        padding: 0 20px;
+    }
+
+    .Contact-Header-Title {
+        width: 90%;
+        margin-top: 8%;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .Contact-Header-Form {
+        width: 70%;
+    }
+    .Contact-container {
+        height: auto;
+        padding: 40px 10px;
+    }
+
+    .Contact-Input-First,
+    .Contact-Input-Second,
+    .Contact-Input-Email,
+    .Contact-Input-Phone,
+    .Contact-Input-Message {
+        width: 100%;
+        
+    }
+
+    .Contact-Button {
+        width: 40%;
+        left: 60%;
+        top: 10px;
+    }
+        .Contact-Input-First,
+    .Contact-Input-Second {
+        width: 100%;
+        margin-bottom: 10px;
+        height: 40px;
+    }
+
+    .Contact-Input-Email,
+    .Contact-Input-Phone,
+    .Contact-Input-Message {
+        width: 100%;
+        height: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .Contact-container {
+        height: auto;
+        padding: 40px 10px;
+    }
+
+    .Contact-Header-Title p{
+        font-size: 0.8rem;
+    }
+
+    .Contact-Form-Name {
+        font-size: 1rem;
+    }
+
+    .Contact-Input-First,
+    .Contact-Input-Second {
+        width: 100%;
+        margin-bottom: 10px;
+        height: 30px;
+    }
+
+    .Contact-Input-Email,
+    .Contact-Input-Phone,
+    .Contact-Input-Message {
+        width: 100%;
+        height: 30px;
+    }
+
+    .Contact-Button {
+        width: 40%;
+        font-size: 1rem;
+        top: 20px;
+    }
+    .Contact-Header {
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,128 @@
+footer {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: sticky;
+}
+
+.footer-container {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/Images/Footer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer_main .tag h1 {
+    display: flex;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer_main .tag .social_link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer_main .tag .social_link a {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    color: #000000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_main .tag .social_link a .fa-brands {
+    font-size: 20px;
+    transition: 0.5s;
+}
+.footer_main .tag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.footer_main .tag .social_link a:hover i {
+    color: rgb(237, 237, 237);
+    transform: scale(1.2);
+}
+
+.footer_links li {
+    margin: 5px 8px;
+}
+
+.footer_text {
+    font-weight: bold;
+    color: #000000;
+    font-size: 1rem;
+}
+
+footer .nav-link {
+    color: #000000;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.footer_main .tag .social_link a .fa-brands{
+    display: flex;
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .footer_main .tag h1 {
+        font-size: 1.2rem;
+    }
+
+    .footer_text {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .footer_links {
+        text-align: center;
+    }
+
+    .footer_main .tag .social_link {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .footer_main .tag h1 {
+        font-size: 1rem;
+    }
+
+    .footer_main .tag .social_link a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer_main .tag .social_link a .fa-brands {
+        font-size: 16px;
+    }
+
+    footer .nav-link {
+        font-size: 0.85rem;
+    }
+
+    .footer_text {
+        font-size: 0.8rem;
+    }
+    .footer_main .tag .social_link{
+    display: flex;
+    
+}
+
+}

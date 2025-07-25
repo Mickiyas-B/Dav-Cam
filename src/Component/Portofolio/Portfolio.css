@@ -1,0 +1,116 @@
+.Portfolio-header-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(241, 255, 255);
+}
+.Portfolio-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 3%;
+}
+.Portfolio-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    gap: 1%;
+
+}
+.Portfolio-header img{
+    width: 25%;
+    height: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.Portfolio-header .img1 {
+    width: 25%;
+    height: auto;
+    max-height: 720px;
+    object-fit: cover;
+}
+
+.Portfolio-header img:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(0.95);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.Portfolio-Small-Titel{
+    display: flex;
+    gap: 22%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+    margin-top: .5%;
+}
+.Portfolio-Question{
+    margin-bottom: 2%;
+}
+.Portfolio-Question h2{
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.Portfolio-Question .planning-contact{
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    align-items: center;
+    margin: 2% 0 0 20%;
+} 
+
+
+@media (max-width: 768px) {
+    .Portfolio-header {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .Portfolio-header img,
+    .Portfolio-header .img1 {
+        width: 30%;
+        height: auto;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .Portfolio-Small-Titel {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 20%;
+        font-size: 1rem;
+        
+    }
+    .Portfolio-Question h2 {
+        font-size: 1.2rem;
+        margin-bottom: 10%;
+        
+    }
+    .Portfolio-Question .planning-contact {
+        font-size: 1.5rem;
+        padding: 10px 20px;
+        margin: 20px 0 0 0px;
+    }
+    .justify-content-center .planning-contact{
+        display: flex;
+        flex-direction: row;;
+        justify-content: center;
+        margin-left: 30%;
+    }
+
+}
