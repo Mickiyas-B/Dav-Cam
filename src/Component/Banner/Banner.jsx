@@ -8,6 +8,7 @@ import Banner2 from './../../assets/Images/Banner 2.jpg';
 import Banner3 from './../../assets/Images/banner 3.jpg';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 
 
     function Banner() {
@@ -20,9 +21,9 @@ import Navbar from 'react-bootstrap/Navbar';
         <Col><img src={Banner3} alt="Banner pictures" className='Banner3'/></Col>
     </Row>
         </Container>
-        <Nav>
-                <Nav.Link to="Contact" className='Booking'>Book Now</Nav.Link>
-        </Nav>  
+        <div className='Banner-booking'>
+                <Link to="/Contact" className='Booking'>Book Now</Link>
+        </div>  
         
         </>
     )

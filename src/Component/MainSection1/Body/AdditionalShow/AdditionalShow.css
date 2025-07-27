@@ -17,13 +17,13 @@
 
 }
 .additional-show-container p{
-    margin: 10px;
-    font-size: 20px;
+    margin: 20px 15px 0 10px;
+    font-size: 1.1rem;
     font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     text-align: start;
-    line-height: 1.7;
+    line-height: 1.5;
 
 }
 .Add-booking{
@@ -54,12 +54,21 @@
         display: none;
     }
     .additional-show-container p{
-        font-size: 18px;
-        text-align: center;
+        font-size: 1.01rem;
+        text-align: start;
+        line-height: 1.2
     }
     .Add-booking{
         font-size: 1.2rem;
         padding: 8px 20px;
         margin-right: 20%;
+        margin-bottom: 2px;
+    }
+}
+@media (max-width: 480px){
+.additional-show-container p{
+        font-size: 1rem;
+        text-align: start;
+        line-height: 1.2;
     }
 }
