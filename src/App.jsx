@@ -18,7 +18,6 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="/Dav-Cam">
       <Header />
     
       <Routes>
@@ -27,12 +26,11 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Portfolio" element={<Portfolio />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="*" element={<Main />} />
       
       </Routes>
   
         <Footer />
-        </BrowserRouter>
+      
     </>
   )
 }
