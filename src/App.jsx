@@ -18,6 +18,7 @@ function App() {
   return (
     <>
       <Header />
+      <Main />
     
       <Routes>
 
