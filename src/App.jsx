@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="/Dav-Cam"></BrowserRouter>
+      <BrowserRouter basename="/Dav-Cam">
       <Header />
     
       <Routes>
@@ -30,7 +30,8 @@ function App() {
       
       </Routes>
   
-      <Footer />
+        <Footer />
+        </BrowserRouter>
     </>
   )
 }
