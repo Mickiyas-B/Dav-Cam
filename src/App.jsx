@@ -7,7 +7,11 @@ import Portfolio from './Component/Portofolio/Portfolio';
 import Contact from './Component/Contact/Contact';
 import Main from './Component/Main Page/Main';
 import Header from './Component/Header/Header';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 
 
 
