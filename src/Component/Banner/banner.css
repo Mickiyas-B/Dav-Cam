@@ -11,7 +11,7 @@
 
 .Banner-container .Banner-row .Banner1{
     position: absolute;
-    top: 10%;
+    top: 8%;
     left: 0;
     width: 33.33%;
     height: 100%;
@@ -20,14 +20,14 @@
 }
 .Banner-container .Banner-row .Banner2{
     position: absolute;
-    top: 10%;
+    top: 8%;
     left: 33.33%;
     width: 33.33%;
     height: 100%;
 }
 .Banner-container .Banner-row .Banner3{
     position: absolute;
-    top: 10%;
+    top: 8%;
     left: 66.66%;
     right: 0;
     width: 33.33%;

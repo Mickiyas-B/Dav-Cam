@@ -16,6 +16,7 @@ import Planning from '../Planing/Planning';
                 <div className="About-content">
                     <div>
                         <h1>Atmosphere</h1>
+                        
                         <p className='Atmosphere-pragraph'>Available Anywhere, Anytime – Your Story, Your Location
     No studio? No problem. Our photography is all about capturing real moments in real places — whether it's a wedding, birthday, baptism, or a casual shoot with friends. We come to you, wherever you are, to bring your vision to life. With a flexible schedule and a passion for telling authentic stories through the lens, we ensure every shoot feels natural, personal, and unforgettable. From the heart of Eritrean and Habesha culture to spontaneous, on-location sessions, we're here to create timeless memories — on your terms.
                         </p>
