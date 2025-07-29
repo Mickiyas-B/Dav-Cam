@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom';
                         <div className="col-md-4 mb-3 mb-md-0 tag">
                             <h1>Follow Us</h1>
                             <div className="social_link justify-content-center justify-content-md-start">
-                                <Link to="#"><i className="fa-brands fa-facebook"></i></Link>
+                                <Link to="https://www.facebook.com/profile.php?id=100009359620318"><i className="fa-brands fa-facebook"></i></Link>
                                 <Link to="#"><i className="fa-brands fa-twitter"></i></Link>
                                 <Link to="#"><i className="fa-brands fa-instagram"></i></Link>
                                 <Link to="#"><i className="fa-brands fa-linkedin"></i></Link>
